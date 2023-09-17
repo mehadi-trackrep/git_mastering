@@ -28,7 +28,24 @@
     * git stash pop
     * git stash clear
 ```
-#Section - 4:(Resetting)
+#Section - 4:(Cherry-pick, Revert)
+```
+    * git cherry-pick <c1>
+    * git cherry-pick <c1>..<cn>
+    * git revert <c1>
+    * git revert <c1>..<cn>
+    * git revert <c1>^..<cn> --no-commit
+```
+#Section - 5:(Ammend, Merging)
+```
+    * git commit --amend
+    * git commit --amend --no-edit
+    * git merge <branch_name>
+    * git merge --abort
+    * git merge --continue
+    * git merge --no-ff <branch_name>
+```
+#Section - 6:(Resetting)
 ```
     * git reset --soft <commit_hash>
     * git reset --mixed <commit_hash>
