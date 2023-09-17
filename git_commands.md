@@ -20,4 +20,17 @@
 ```
 #Section - 3:(Stashing)
 ```
+    * git stash
+    * git stash list
+    * git stash apply
+    * git stash apply stash@{1}
+    * git stash drop
+    * git stash pop
+    * git stash clear
+```
+#Section - 4:(Resetting)
+```
+    * git reset --soft <commit_hash>
+    * git reset --mixed <commit_hash>
+    * git reset --hard <commit_hash>
 ```
