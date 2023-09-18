@@ -84,5 +84,7 @@
     * git config --global user.email "
     * git log --pretty=fuller
     * git log --pretty=format:"%h - %an, %ar : %s" --graph --since=1.day.ago
+    * git tag -a v1.0 -m "Version 1.0"
+    * git push --tags
 
 ```
