@@ -32,6 +32,7 @@
 ```
     * git cherry-pick <c1>
     * git cherry-pick <c1>..<cn>
+    * git cherry-pick --continue (after staging the changes)
     * git revert <c1>
     * git revert <c1>..<cn>
     * git revert <c1>^..<cn> --no-commit
@@ -44,6 +45,7 @@
     * git merge --abort
     * git merge --continue
     * git merge --no-ff <branch_name>
+    * git merge --continue (after staging the changes)
 ```
 #Section - 6:(Resetting)
 ```
