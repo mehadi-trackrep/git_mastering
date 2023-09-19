@@ -32,6 +32,7 @@
 ```
     * git cherry-pick <c1>
     * git cherry-pick <c1>..<cn>
+    * git cherry-pick --continue (after staging the changes)
     * git revert <c1>
     * git revert <c1>..<cn>
     * git revert <c1>^..<cn> --no-commit
@@ -44,10 +45,46 @@
     * git merge --abort
     * git merge --continue
     * git merge --no-ff <branch_name>
+    * git merge --continue (after staging the changes)
 ```
 #Section - 6:(Resetting)
 ```
     * git reset --soft <commit_hash>
     * git reset --mixed <commit_hash>
     * git reset --hard <commit_hash>
+```
+#Section - 7:(Rebasing)
+```
+    * git rebase -i <branch_name> (interactive rebase)
+    * git rebase --continue
+    * git rebase --abort
+--> We do couple of things here:-
+        - pick (p)
+        - reword (r)
+        - edit (e)
+        - squash (s)
+        - fixup (f)
+        - exec (x)
+        - drop (d)
+        - label (l)
+        - reset (r)
+        - merge (m)
+        - noop (n)
+```
+#Section - 8:(Squashing)
+```
+    * git rebase -i <branch_name>
+    * git rebase -i HEAD~5
+    * git rebase -i <commit_hash>
+```
+
+#Section - 9:(Some important commands)
+```
+    * git config --global user.name "Sandeep"
+    * git config --global user.email "
+    * git log --pretty=fuller
+    * git log --pretty=format:"%h - %an, %ar : %s" --graph --since=1.day.ago
+    * git tag -a v1.0 -m "Version 1.0"
+    * git push --tags
+
 ```
